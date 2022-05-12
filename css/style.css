@@ -46,8 +46,24 @@ footer{
     background-color: #222222;
     height: 50px;
     padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
 }
 
+.setting{
+    display: flex;
+    align-items: center;
+}
+
+.box-foot ul{
+    list-style: none;
+}
+
+.box-foot{
+    display: inline-block;
+    text-align: center;
+    padding:0 10px;
+}
 /* main */
 main{
     height: calc(100vh - 50px);
@@ -68,6 +84,7 @@ main{
 .border-b{
     margin-top: 50px;
     width: 90vw;
+    
 }
 
 .box-name{
