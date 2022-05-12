@@ -10,24 +10,31 @@ img{
 
 body{
     color: white;
+    background-color: black;
 }
 /* header */
+header .btn a{
+    text-decoration: none;
+    color: white;
+}
+
 header{
     background-color: black;
     width: 100vw;
     height: 50px;
     padding: 10px 0;
-    margin: 0 auto;
     position: fixed;
     z-index: 1;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .btn{
     background-color: #4A4A4A;
     border-radius: 5px;
-    padding: 5px 0;
-    display: inline-block;
+    padding: 5px 5px;
+    margin: 5px;    
 }
 
 /* footer */
@@ -36,7 +43,37 @@ footer{
     left: 0;
     bottom: 0;
     width: 100vw;
-    border-color: #222222;
+    background-color: #222222;
     height: 50px;
     padding: 10px 0;
 }
+
+/* main */
+main{
+    height: calc(100vh - 50px);
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+
+.box{
+    display: inline-block;
+    padding: 10px 5px;
+    position: relative;
+}
+
+.border-b{
+    margin-top: 50px;
+    width: 90vw;
+}
+
+.box-name{
+    background-color: rgba( 34, 34, 34, 0.9);
+    position: absolute;
+    left: 2%;
+    bottom: 9%;
+}
+
