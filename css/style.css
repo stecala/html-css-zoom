@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+}
+
+body{
+    color: white;
+}
+/* header */
+header{
+    background-color: black;
+    width: 100vw;
+    height: 50px;
+    padding: 10px 0;
+    margin: 0 auto;
+    position: fixed;
+    z-index: 1;
+    text-align: center;
+}
+
+.btn{
+    background-color: #4A4A4A;
+    border-radius: 5px;
+    padding: 5px 0;
+    display: inline-block;
+}
+
+/* footer */
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    border-color: #222222;
+    height: 50px;
+    padding: 10px 0;
+}
