@@ -94,7 +94,6 @@ main{
     overflow: auto;
     padding-top: 50px;
     padding-bottom: 50px;
-
 }
 
 .box{
@@ -104,12 +103,10 @@ main{
 
 .border-b{
     width: 90vw;
-    margin-top: auto;
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    /* position: relative;
-    left: 4vw; */
+    justify-content: center;
+    margin: auto;
 }
 
 .box-name{
