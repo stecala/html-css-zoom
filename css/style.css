@@ -44,7 +44,7 @@ footer{
     bottom: 0;
     width: 100vw;
     background-color: #222222;
-    height: 50px;
+    height: 75px;
     display: flex;
     justify-content: space-between;
 }
@@ -52,7 +52,6 @@ footer{
 .setting, .panel{
     display: flex;
     align-items: center;
-    padding: 15px 0;
 }
 
 .box-foot ul{
@@ -71,34 +70,46 @@ footer{
 
 .btn-foot{
     background-color: #4A4A4A;
-    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.btn-foot a{
     text-decoration: none;
+    padding: 20px 20px;
 }
 
 .color-txt-btn{
     color: red;
 }
+
+.setting .box-foot .fa-solid,
+.panel .box-foot .fa-solid
+{
+    font-size: 25px;
+}
 /* main */
 main{
     height: calc(100vh - 50px);
     overflow: auto;
-    display: flex;
-    flex-wrap: wrap;
     padding-top: 50px;
     padding-bottom: 50px;
-    justify-content: center;
+
 }
 
 .box{
-    display: inline-block;
     padding: 10px 5px;
     position: relative;
 }
 
 .border-b{
-    margin-top: 50px;
     width: 90vw;
-    
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* position: relative;
+    left: 4vw; */
 }
 
 .box-name{
